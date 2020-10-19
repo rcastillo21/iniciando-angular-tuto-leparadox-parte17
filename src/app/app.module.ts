@@ -1,11 +1,13 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { AppComponent } from './app.component';
+import { AppComponent } from './components/app/app.component';
+import { HijoComponent } from './components/hijo/hijo.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HijoComponent
   ],
   imports: [
     BrowserModule
